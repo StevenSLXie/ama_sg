@@ -6,9 +6,6 @@ from hayhooks import BasePipelineWrapper
 urls = "https://cpf.gov.sg/member/growing-your-savings/saving-more-with-cpf/"
 
 import os
-os.environ["APIFY_API_TOKEN"] = 'apify_api_cRxwEbM1gMMshb1cpp2x1hBiTziYr81C8Olk'
-os.environ["APIFY_TOKEN"] = 'apify_api_cRxwEbM1gMMshb1cpp2x1hBiTziYr81C8Olk'
-os.environ['OPENAI_API_KEY'] = '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'
 
 class PipelineWrapper(BasePipelineWrapper):
     def build_pipeline(self):
