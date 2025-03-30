@@ -1,0 +1,6 @@
+haystack-ai
+duckduckgo-api-haystack
+transformers
+sentence-transformers
+datasets
+apify-haystack
