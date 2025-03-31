@@ -4,3 +4,6 @@ transformers
 sentence-transformers
 datasets
 apify-haystack
+fastapi
+uvicorn
+openai
